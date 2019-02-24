@@ -1,0 +1,111 @@
+#note-logo {
+  color: white !important;
+}
+
+#notes-bar {
+  background-color: var(--main);
+}
+
+.notebook-sidebar {
+  background-color: black;
+}
+
+.notebook-notes {
+  background-color: var(--secondary);
+}
+
+.note {
+  background-color: var(--background);
+}
+
+.ui.list > .sidebar-item {
+  padding: 0.7em;
+  margin: 0px 0.7em 0px 0.7em;
+}
+
+.sidebar-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ui.list .list > .item.notebook-item {
+  padding: 0.5833em 0.833em;
+  border-radius: 0.28571429rem;
+}
+
+.notebook-item:hover {
+  background-color: #320a5c;
+}
+
+#all-notes {
+  padding: 0.7em;
+  margin: 0px 0.7em 0px 0.7em;
+  border-radius: 0.28571429rem;
+}
+
+#all-notes:hover {
+  background-color: #320a5c;
+}
+
+.ui.list > .item.note-item {
+  padding: 0.5833em 0.833em;
+  border-radius: 0.28571429rem;
+}
+
+.note-item:hover {
+  background-color: #6435c9;
+}
+
+#editor-col {
+  height: 100%;
+  padding: 0;
+}
+
+/* Preview Pane */
+
+.result-col > .result {
+  all: unset;
+}
+
+.result-col > .result p {
+  margin: 0 0 1em;
+  line-height: 1.4285em;
+}
+
+
+.result-col > .result {
+  color: #444;
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman",
+    serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.result-col > .result > pre {
+  border: 1px solid #ccc;
+}
+
+.result-col > .result > blockquote {
+  color: #666;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #eee solid;
+}
+
+.result-col > .result tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+.result-col > .result th,td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.result-col > .result table tr:nth-child(2n) {
+  background: #f6f8fa;
+}
+
+
+.result-col > .result b, strong {
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+:root {
+  --background: #E7EDE0;
+  --main: #20132E;
+  --secondary: #8BC6D3;
+  --destructive: #BF385E;
+  --warning: #EFAE54;
+}
+
+body > div,
+body > div > div,
+body > div > div > div.login-form,
+body > div > div > div.home-page,
+body > div > div > div.home-page > div,
+body > div > div > div.home-page > div > .pusher,
+body > div > div > div.home-page > div > .pusher > .grid {
+  height: 100%;
+}
+
+.ui.grid.zero-margin {
+  margin: 0;
+}
